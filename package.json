@@ -1,0 +1,32 @@
+{
+  "name": "twitch-lambda-layer",
+  "version": "1.0.0",
+  "description": "AWS Lambda Layer for providing common functionality for Twitch functions.",
+  "main": "index.js",
+  "dependencies": {
+    "jsonwebtoken": "^8.4.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedist/Twitch-Lambda-Layer.git"
+  },
+  "keywords": [
+    "Twitch",
+    "Lambda",
+    "jwt",
+    "x-hub-signature"
+  ],
+  "author": "Jeff Martin (Dist)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/thedist/Twitch-Lambda-Layer/issues"
+  },
+  "homepage": "https://github.com/thedist/Twitch-Lambda-Layer#readme"
+}
